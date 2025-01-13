@@ -1,6 +1,0 @@
-@OpenFileConverter_HostAddress = http://localhost:5222
-
-GET {{OpenFileConverter_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,6 +1,6 @@
 ﻿services:
-  openfileconverter:
-    image: openfileconverter
+  openfileconverter.api:
+    image: openfileconverter.api
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: OpenFileConverter.API/Dockerfile
