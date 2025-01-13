@@ -1,0 +1,6 @@
+﻿services:
+  openfileconverter:
+    image: openfileconverter
+    build:
+      context: .
+      dockerfile: Dockerfile
