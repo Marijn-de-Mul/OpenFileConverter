@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Runtime.InteropServices;
+using System.Threading.Tasks;
 using Xabe.FFmpeg;
 using Xabe.FFmpeg.Downloader;
 
@@ -8,7 +10,24 @@ namespace OpenFileConverter.SAL.Services
     {
         public ConversionService()
         {
+            SetFFmpegPath();
             FFmpegDownloader.GetLatestVersion(FFmpegVersion.Official).Wait();
+        }
+
+        private void SetFFmpegPath()
+        {
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            {
+                FFmpeg.SetExecutablesPath(@"../OpenFileConverter.API");
+            }
+            else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+            {
+                FFmpeg.SetExecutablesPath(@"../OpenFileConverter.API");
+            }
+            else
+            {
+                throw new PlatformNotSupportedException("Unsupported OS platform");
+            }
         }
 
         public async Task<string> ConvertMp3ToMp4(string inputFilePath, string outputFilePath)

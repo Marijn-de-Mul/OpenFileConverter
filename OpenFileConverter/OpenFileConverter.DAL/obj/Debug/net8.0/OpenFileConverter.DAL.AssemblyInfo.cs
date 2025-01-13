@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenFileConverter.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c06278f4e5b35064666ee9e4948c2d524ac5d65d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e05e60fca22355a6956a1d2c3c61becb0612e37")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenFileConverter.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenFileConverter.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

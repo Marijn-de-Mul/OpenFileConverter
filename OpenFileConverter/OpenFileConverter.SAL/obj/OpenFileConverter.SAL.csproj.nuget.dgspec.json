@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj": {}
+    "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj": {}
   },
   "projects": {
-    "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj": {
+    "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj",
+        "projectUniqueName": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj",
         "projectName": "OpenFileConverter.SAL",
-        "projectPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj",
+        "projectPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\OpenFileConverter.SAL.csproj",
         "packagesPath": "C:\\Users\\Marij\\.nuget\\packages\\",
-        "outputPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\obj\\",
+        "outputPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.SAL\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -43,6 +43,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Xabe.FFmpeg": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            },
+            "Xabe.FFmpeg.Downloader": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

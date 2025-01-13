@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./OpenFileConverter-Frontend
+    ports:
+      - "3000:3000"
+    restart: always
+
+  backend:
+    build:
+      context: ./OpenFileConverter
+    ports:
+      - "7195:8080"
+    restart: always

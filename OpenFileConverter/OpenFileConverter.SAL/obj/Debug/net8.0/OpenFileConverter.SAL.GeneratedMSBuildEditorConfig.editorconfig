@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OpenFileConverter.SAL
-build_property.ProjectDir = E:\Personal\OpenFileConverter\OpenFileConverter\OpenFileConverter\OpenFileConverter.SAL\
+build_property.ProjectDir = E:\Personal\OpenFileConverter\OpenFileConverter\OpenFileConverter.SAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

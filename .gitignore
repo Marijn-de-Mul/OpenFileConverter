@@ -1,0 +1,57 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.user
+*.lock.json
+*.ide
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore .NET Core specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Rider settings
+.idea/
+
+# Ignore npm and Node.js artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Ignore build output
+build/
+dist/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore coverage reports
+coverage/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+ffmpeg.exe 
+ffprobe.exe

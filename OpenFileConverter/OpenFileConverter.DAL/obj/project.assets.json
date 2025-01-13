@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.DAL\\OpenFileConverter.DAL.csproj",
+      "projectUniqueName": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.DAL\\OpenFileConverter.DAL.csproj",
       "projectName": "OpenFileConverter.DAL",
-      "projectPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.DAL\\OpenFileConverter.DAL.csproj",
+      "projectPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.DAL\\OpenFileConverter.DAL.csproj",
       "packagesPath": "C:\\Users\\Marij\\.nuget\\packages\\",
-      "outputPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.DAL\\obj\\",
+      "outputPath": "E:\\Personal\\OpenFileConverter\\OpenFileConverter\\OpenFileConverter.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [

@@ -9,6 +9,7 @@
 
     <ItemGroup>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.2.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -19,6 +20,10 @@
 
     <ItemGroup>
       <Folder Include="Controllers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OpenFileConverter.SAL\OpenFileConverter.SAL.csproj" />
     </ItemGroup>
 
 </Project>
