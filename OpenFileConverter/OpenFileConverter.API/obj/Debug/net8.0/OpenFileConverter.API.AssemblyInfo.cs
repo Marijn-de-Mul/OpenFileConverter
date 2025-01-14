@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenFileConverter.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a1a24e8be4fc313ba1e08f436629434235c4906")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c6df0339c89fbcd0f140291bc2bc553184e1376")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenFileConverter.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenFileConverter.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

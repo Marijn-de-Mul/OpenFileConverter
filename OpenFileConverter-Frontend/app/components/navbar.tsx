@@ -9,6 +9,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className="space-x-4">
           <a href="/" className="text-white hover:text-gray-200">Convert</a>
+          <a href="/update" className="text-white hover:text-gray-200">Update</a>
         </div>
       </div>
     </nav>
