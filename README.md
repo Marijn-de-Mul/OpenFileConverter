@@ -36,7 +36,7 @@ wget -qO- https://raw.githubusercontent.com/Marijn-de-Mul/OpenFileConverter/main
 
 ## Usage
 
-Once the container is running, you can access the application at `http://localhost:8080`. The frontend allows you to upload and convert files easily. Refer to the user guide for detailed instructions on how to use the various features of the application.
+Once the container is running, you can access the application at `http://localhost:3000`. The frontend allows you to upload and convert files easily. Refer to the user guide for detailed instructions on how to use the various features of the application.
 
 ## Contributing
 
